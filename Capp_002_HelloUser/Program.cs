@@ -1,4 +1,4 @@
 ﻿Console.WriteLine("Who are You?");
-string UserName = Console.ReadLine();
+string UserName = new string (Console.ReadLine());
 Console.Write("Hello " + UserName + "!");
 
